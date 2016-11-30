@@ -13,4 +13,4 @@ for item in all_nums:
 print(sum)
 
 ## Much faster approach
-sum([x for x in range(1001) if x%3==0 or x%5==0])
+sum([x for x in range(1000) if x%3==0 or x%5==0])
